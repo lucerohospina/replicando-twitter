@@ -6,14 +6,28 @@ window.addEventListener('load', function () {
     var max = 140;
     
   tweetBtn.addEventListener("click", function() {
-    var newTweet = document.createElement("div");
-    newTweet.classList.add("container");
-    if(newTweet.textContent == " ") {
-      tweetBtn.disabled = true;
-    } else if(newTweet.textContent = textArea.value) {
-      tweetBtn.disabled = false;
+    
+
+    // if(newTweet.textContent == " ") {
+    //   tweetBtn.disabled = true;
+    // } else if(newTweet.textContent = textArea.value) {
+    //   tweetBtn.disabled = false;
+    //   tweetsContainer.insertBefore(newTweet, tweetsContainer.childNodes[0]);
+    //   // tweetBtn.classList.add("able");
+    // }
+
+    if(textArea.value) {
+      var newTweet = document.createElement("div");
+      newTweet.classList.add("container");
       tweetsContainer.insertBefore(newTweet, tweetsContainer.childNodes[0]);
-      // tweetBtn.classList.add("able");
+      newTweet.textContent = textArea.value;
+    
+      textArea.value = "";
+      textArea.focus();
+      
+    } else {
+      tweetBtn.disabled = true;
+      
     }
   })
 
