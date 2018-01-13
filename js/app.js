@@ -12,9 +12,13 @@ $(document).ready(function() {
 
  function writtingTweets() {
    console.log('input');
+   var $characters = $inputTweets.val().length;
+   console.log($characters);
+   $counter.text(max-$characters);
    if($inputTweets.val()) {
      $btn.removeAttr('disabled');
      $btn.addClass('able');
+     changeColor();
    } else {
      $btn.attr('disabled', true);
    }
@@ -31,13 +35,18 @@ $(document).ready(function() {
    }
  }
 
-//  $postsContainer.prepend('<div class="card del-post mt-3"><div class="card-header btn-yellowLab"><small>Publicado por</small> Usuario</div><div class="card-body" id="appendLike"><p class="card-text new-post"></p></div></div>');
-//  $('.new-post').first().append($textArea.val());
-//  $('#appendLike').append('<button class="btn btn-secondary like-btn"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Me gusta</button>');
-//  $('.card-header').first().prepend('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
-//  $textArea.val('');
-//  $textArea.focus();
-//  $postBtn.attr('disabled', true);
-
-
+ function changeColor() {
+  var $characters = $inputTweets.val().length;
+  console.log($characters);
+  if($characters>120 && $characters<=130) {
+    $counter.css({'color': 'green'});
+  } else if($characters>130 && $characters<=140) {
+    $counter.css({'color': 'orange'});
+  } else if($characters>140) {
+    $counter.css({'color': 'red'});
+    $btn.attr('disabled', true);
+  } else {
+    $counter.css({'color': 'rgb(80,182,245)'});
+  }
+ }
 });
