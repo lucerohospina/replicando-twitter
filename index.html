@@ -22,24 +22,24 @@
 
     <section class="container">
       <div class="row">
-       <div class="col-xs-12 col-sm-4 intro">
+       <div class="col-xs-10 col-xs-offset-1 col-sm-3 intro">
         <p>Hola, soy front-end developer jr. y esta es mi réplica de Twitter</p>
         <a href="https://github.com/lucerohospina/replicando-twitter" target="_blank">mi código</a>
        </div>
-       <div class= "col-xs-12 col-sm-4">
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <button id="tweet-btn" class="btn" disabled>tweet</button>
+       <div class="form-group col-xs-12 col-sm-6 col-sm-offset-1">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="input-tweets" rows="3"></textarea>
+          <button class="btn btn-default" id="tweet-btn" type="submit" disabled>Button</button>
           <span id="counter">140</span>
-        </div>
+       </div>
       </div>
       <div class="row">
-        <div class="bottom col-xs-12 col-sm-8">
-          <h3>See new tweets</h3>
-          <div id="tweets-container"></div>
-        </div>
+        <h3>See tweets</h3>
+      </div>
+      <div id="tweets-container">
+        <!-- <div class="jumbotron">
+          <p id="new tweet">AQUI TWEET</p>
+        </div> -->
       </div>
     </section> 
 
