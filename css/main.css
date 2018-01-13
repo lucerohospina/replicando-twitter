@@ -26,13 +26,18 @@ body {
 
 header h1 {
   color: rgb(80,182,245);
-  font-size: 2.5em;
   display: inline-block;
+  font-size: 2.5em;
+  font-weight: 600;
 }
 
 header i {
   background: transparent;
   color: rgb(80,182,245);
+}
+
+.second-row {
+  margin-top: 25px;
 }
 
 textarea {
@@ -43,19 +48,23 @@ textarea {
 }
 
 .btn {
-  background-color: rgb(185,225,250);
+  background-color: rgb(80,182,245);
   border: none;
   border-radius: 14px;
   color: #ffffff;
-  font-size: 1em;
-  outline: none;
+  font-size: 1.2em;
   margin-top: 5px;
-  padding: 5px 15px;
+  padding: 5px 20px;
+}
+
+.btn:hover {
+  color: #ffffff;
+  font-size: 1.3em;
 }
 
 #counter {
   color: rgb(80,182,245);
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 600;
   margin-left: 5px;
 }
@@ -65,3 +74,11 @@ section h3 {
   font-weight: 400;
 }
 
+.bg-container {
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+  .form-mobile {
+    margin-top: 25px;
+  }
+}

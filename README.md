@@ -1,15 +1,32 @@
 # **Réplica de Twitter**
 
-## En el presente repositorio presento una réplica básica de la página web de Twitter mediante html, css y javascript.
+**Actualización:**
 
-## Este trabajo se realizó como parte de los retos de código del *bootcamp* de **Laboratoria** 2017-2.
+* Conforme avanzamos en el bootcamp de Laboratoria Lima 2017-2 adquirmos más herramientas para poder poner en práctica; por lo tanto, el presente repositorio ha sido actualizado con:
 
- >### Imagen guía:
- 
+  1. framework de Bootstrap 3.3
 
- ![Sin titulo](assets/images/twitterLab.JPG)
+  2. librería de jquery 3.2.1
 
- >### Guía de requerimientos:
+  3. por medio del grid system, este sitio es ahora responsive.
+
+* Vistas del proyecto:
+
+![Sin titulo](assets/images/myTwitter.JPG)
+
+![Sin titulo](assets/images/myTwitter2.JPG)
+
+**_README original_**
+
+* En el presente repositorio presento una réplica básica de la página web de Twitter mediante html, css y javascript.
+
+* Este trabajo se realizó como parte de los retos de código del *bootcamp* de **Laboratoria** 2017-2.
+
+>Imagen Guía:
+
+![Sin titulo](assets/images/twitterLab.JPG)
+
+ >Guía de requerimientos:
 
  #### **Versión 0.0.1**
 
