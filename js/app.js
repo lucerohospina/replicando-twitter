@@ -27,7 +27,7 @@ $(document).ready(function() {
  function tweet() {
    console.log('click');
    if($inputTweets.val()){
-    $tweets.prepend('<div class="jumbotron bg-container"><p class="new-tweet"></p></div>');
+    $tweets.prepend('<div class="jumbotron bg-container"><p class="new-tweet"></p><i>' + moment().format('MMMM Do YYYY, h:mm:ss a') + '</i></div>');
     $('.new-tweet').first().append($inputTweets.val());
      $inputTweets.val('');
      $inputTweets.focus();

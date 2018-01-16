@@ -2,7 +2,7 @@
 
 **Actualización:**
 
-* Conforme avanzamos en el bootcamp de Laboratoria Lima 2017-2 adquirmos más herramientas para poder poner en práctica; por lo tanto, el presente repositorio ha sido actualizado con:
+* Conforme avanzamos en el bootcamp de Laboratoria Lima 2017-2 adquirimos más herramientas para poder poner en práctica; por lo tanto, el presente repositorio ha sido actualizado con:
 
   1. framework de Bootstrap 3.3
 
