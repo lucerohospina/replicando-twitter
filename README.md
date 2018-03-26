@@ -1,13 +1,10 @@
 # Twitter
 
-En este repositorio desarrollé una réplica de la red social Twitter.
+Réplica de Twitter que tiene las principales características de su original. Escribe tus tweets y compártelos con el mundo.
 
 ![mytwitter2](https://user-images.githubusercontent.com/32287019/36444462-7f8cb5cc-1649-11e8-9083-a4a9d61063c2.JPG)
 
-## Desarrollado para: 
-[Laboratoria](http://laboratoria.la) 
-
-
+## Desarrollado para [Laboratoria](http://laboratoria.la) 
 
 **Actualización:**
 
