@@ -4,10 +4,11 @@ En este repositorio desarrollé una réplica de la red social Twitter.
 
 ![mytwitter2](https://user-images.githubusercontent.com/32287019/36444462-7f8cb5cc-1649-11e8-9083-a4a9d61063c2.JPG)
 
-## Desarrollado para [Laboratoria](http://laboratoria.la) 
+## Desarrollado para: 
+[Laboratoria](http://laboratoria.la) 
 
 
-#
+
 **Actualización:**
 
 * Conforme avanzamos en el bootcamp de Laboratoria Lima 2017-2 adquirimos más herramientas para poder poner en práctica; por lo tanto, el presente repositorio ha sido actualizado con:
